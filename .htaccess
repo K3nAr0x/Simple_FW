@@ -1,8 +1,0 @@
-# Jika RewriteEngine On maka akan diakses dibawah ini
-RewriteEngine On 
-# Lokasi tempat web berada misalnya di folder webtemp.
-RewriteBase /soalonline
-
-RewriteRule ^mulai/$ index.php?controller=home&function=mulai [QSA,L]
-RewriteRule ^mulai/soal$ index.php?controller=home&function=soal&topik=produktif [QSA,L]
-RewriteRule ^mulai/akhir$ index.php?controller=home&function=akhir [QSA,L]
